@@ -15,6 +15,15 @@
 		D825F54F1EAED28D00883767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D825F54D1EAED28D00883767 /* LaunchScreen.storyboard */; };
 		D825F55A1EAED28D00883767 /* PhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F5591EAED28D00883767 /* PhoneTests.m */; };
 		D825F5651EAED28D00883767 /* PhoneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F5641EAED28D00883767 /* PhoneUITests.m */; };
+		D825F5751EAEEB2500883767 /* ic_phone_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D825F5721EAEEB2500883767 /* ic_phone_2x.png */; };
+		D825F5761EAEEB2500883767 /* ic_phone_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D825F5731EAEEB2500883767 /* ic_phone_3x.png */; };
+		D825F5771EAEEB2500883767 /* ic_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = D825F5741EAEEB2500883767 /* ic_phone.png */; };
+		D825F57C1EAEF08900883767 /* ic_backspace_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D825F5791EAEF08900883767 /* ic_backspace_2x.png */; };
+		D825F57D1EAEF08900883767 /* ic_backspace_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D825F57A1EAEF08900883767 /* ic_backspace_3x.png */; };
+		D825F57E1EAEF08900883767 /* ic_backspace.png in Resources */ = {isa = PBXBuildFile; fileRef = D825F57B1EAEF08900883767 /* ic_backspace.png */; };
+		D825F5831EAEFDA100883767 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F5801EAEFDA100883767 /* GCDAsyncSocket.m */; };
+		D825F5841EAEFDA100883767 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F5821EAEFDA100883767 /* GCDAsyncUdpSocket.m */; };
+		D825F5881EAEFE1E00883767 /* NetworkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F5871EAEFE1E00883767 /* NetworkHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,18 @@
 		D825F5601EAED28D00883767 /* PhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D825F5641EAED28D00883767 /* PhoneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneUITests.m; sourceTree = "<group>"; };
 		D825F5661EAED28D00883767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D825F5721EAEEB2500883767 /* ic_phone_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_phone_2x.png; sourceTree = "<group>"; };
+		D825F5731EAEEB2500883767 /* ic_phone_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_phone_3x.png; sourceTree = "<group>"; };
+		D825F5741EAEEB2500883767 /* ic_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_phone.png; sourceTree = "<group>"; };
+		D825F5791EAEF08900883767 /* ic_backspace_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_backspace_2x.png; sourceTree = "<group>"; };
+		D825F57A1EAEF08900883767 /* ic_backspace_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_backspace_3x.png; sourceTree = "<group>"; };
+		D825F57B1EAEF08900883767 /* ic_backspace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_backspace.png; sourceTree = "<group>"; };
+		D825F57F1EAEFDA100883767 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		D825F5801EAEFDA100883767 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		D825F5811EAEFDA100883767 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		D825F5821EAEFDA100883767 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		D825F5861EAEFE1E00883767 /* NetworkHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkHandler.h; sourceTree = "<group>"; };
+		D825F5871EAEFE1E00883767 /* NetworkHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +122,8 @@
 		D825F53E1EAED28D00883767 /* Phone */ = {
 			isa = PBXGroup;
 			children = (
+				D825F5851EAEFDA700883767 /* Network */,
+				D825F5781EAEF07600883767 /* Resources */,
 				D825F5421EAED28D00883767 /* AppDelegate.h */,
 				D825F5431EAED28D00883767 /* AppDelegate.m */,
 				D825F5451EAED28D00883767 /* ViewController.h */,
@@ -110,6 +133,8 @@
 				D825F54D1EAED28D00883767 /* LaunchScreen.storyboard */,
 				D825F5501EAED28D00883767 /* Info.plist */,
 				D825F53F1EAED28D00883767 /* Supporting Files */,
+				D825F5861EAEFE1E00883767 /* NetworkHandler.h */,
+				D825F5871EAEFE1E00883767 /* NetworkHandler.m */,
 			);
 			path = Phone;
 			sourceTree = "<group>";
@@ -138,6 +163,30 @@
 				D825F5661EAED28D00883767 /* Info.plist */,
 			);
 			path = PhoneUITests;
+			sourceTree = "<group>";
+		};
+		D825F5781EAEF07600883767 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D825F5791EAEF08900883767 /* ic_backspace_2x.png */,
+				D825F57A1EAEF08900883767 /* ic_backspace_3x.png */,
+				D825F57B1EAEF08900883767 /* ic_backspace.png */,
+				D825F5721EAEEB2500883767 /* ic_phone_2x.png */,
+				D825F5731EAEEB2500883767 /* ic_phone_3x.png */,
+				D825F5741EAEEB2500883767 /* ic_phone.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D825F5851EAEFDA700883767 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D825F57F1EAEFDA100883767 /* GCDAsyncSocket.h */,
+				D825F5801EAEFDA100883767 /* GCDAsyncSocket.m */,
+				D825F5811EAEFDA100883767 /* GCDAsyncUdpSocket.h */,
+				D825F5821EAEFDA100883767 /* GCDAsyncUdpSocket.m */,
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +295,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D825F57E1EAEF08900883767 /* ic_backspace.png in Resources */,
+				D825F57D1EAEF08900883767 /* ic_backspace_3x.png in Resources */,
+				D825F5771EAEEB2500883767 /* ic_phone.png in Resources */,
+				D825F5751EAEEB2500883767 /* ic_phone_2x.png in Resources */,
 				D825F54F1EAED28D00883767 /* LaunchScreen.storyboard in Resources */,
 				D825F54C1EAED28D00883767 /* Assets.xcassets in Resources */,
+				D825F5761EAEEB2500883767 /* ic_phone_3x.png in Resources */,
 				D825F54A1EAED28D00883767 /* Main.storyboard in Resources */,
+				D825F57C1EAEF08900883767 /* ic_backspace_2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +328,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D825F5831EAEFDA100883767 /* GCDAsyncSocket.m in Sources */,
+				D825F5881EAEFE1E00883767 /* NetworkHandler.m in Sources */,
+				D825F5841EAEFDA100883767 /* GCDAsyncUdpSocket.m in Sources */,
 				D825F5471EAED28D00883767 /* ViewController.m in Sources */,
 				D825F5441EAED28D00883767 /* AppDelegate.m in Sources */,
 				D825F5411EAED28D00883767 /* main.m in Sources */,
